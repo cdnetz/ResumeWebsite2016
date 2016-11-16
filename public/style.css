@@ -1,0 +1,180 @@
+body, html{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+
+.links{
+	text-decoration: none;
+	color: #ffffff;
+	display: flex;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	justify-content: space-around;
+	font-size: 24px;
+	font-family: 'Arvo', serif;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+.links a{
+	text-decoration: none;
+	color: white;
+}
+
+.links:hover{
+	color: #d1dd82;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+/*experience page elements*/
+.name-page{
+	height: 1200px;
+	width: 100%;
+	background: none;
+	
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+	text-align: center;
+	
+}
+
+.name-page-text{
+	font-family: 'Oswald', sans-serif;
+	padding-top: 10%;
+	font-size: 96px;
+	color: white;
+	
+}
+
+.long-text{
+	width: 40%;
+	margin-left: 2%;
+
+}
+
+/*summery page elements*/
+
+.summery-page{
+	height: 1350px;
+	margin: 0;
+	
+	width: 100%;
+	
+}
+
+.summery-page-text{
+	width: 80%;
+	background: none;
+	color: #E8FFFF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	
+}
+
+.summery-element{
+	margin-top: 50px;
+}
+
+
+
+/*experience page elements*/
+
+.experience-page{
+	height: 1350px;
+	margin: 0;
+	
+	width: 100%;
+	
+}
+
+.experience-page-text{
+	width: 80%;
+	background: none;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	
+}
+
+.experience-element{
+	margin-top: 50px;
+}
+
+/*education page elements*/
+
+.education-page-text{
+	width: 80%;
+	background: none;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 25px;
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.education-page{
+	height: 1250px;
+	margin: 0;
+	
+	width: 100%;
+}
+
+
+
+.education-element{
+	margin: 0;
+	padding-top: 10px;
+}
+
+
+
+/*contact page elements*/
+.contact-page{
+	height: 1000px;
+	margin: 0;
+	
+	width: 100%;
+	
+}
+
+.contact-page-text{
+	width: 80%;
+	background: none;
+	color: #E8FFFF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 80px;
+	
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	line-height: 25px;
+	
+	
+}
+
+.breaker{
+	height: 180px;
+	background: #2b2b2b;
+	width: 100%;
+	position: relative;
+}
